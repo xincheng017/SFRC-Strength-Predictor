@@ -61,11 +61,14 @@ Or in Jupyter Notebook:
 ## Database
 
 The model was trained on a database of **671 experimental records** compiled from **47 published studies**:
+
 - Compressive strength (CS): n = 431
 - Splitting tensile strength (STS): n = 240
 
-The dataset is not included in this repository. Please refer to the associated paper for the full list of data sources.
-
+The full database is available in the [`data/`](./data) directory, including the master file
+(`SFRC_cleaned_datasets_v2.xlsx`), CSV exports of both datasets, and a data dictionary
+([`data/README.md`](./data/README.md)). The complete list of the **47 source publications**
+is provided in [`data/data_sources.md`](./data/data_sources.md).
 ---
 
 ## Hyperparameter Optimization
